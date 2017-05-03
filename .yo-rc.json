@@ -1,0 +1,24 @@
+{
+  "generator-magnetjs": {
+    "promptValues": {
+      "npmModule": "auth0",
+      "moduleName": "magnet-auth0",
+      "name": "Kieve Chua",
+      "email": "kievechua@gmail.com",
+      "website": "https://github.com/kievechua",
+      "license": "MIT",
+      "language": "ts",
+      "includeFly": true,
+      "fromDist": false
+    },
+    "npmModule": "auth0",
+    "moduleName": "magnet-auth0",
+    "name": "Kieve Chua",
+    "email": "kievechua@gmail.com",
+    "website": "https://github.com/kievechua",
+    "license": "MIT",
+    "language": "ts",
+    "includeFly": true,
+    "fromDist": false
+  }
+}
