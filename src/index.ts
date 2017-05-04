@@ -11,7 +11,7 @@ export default class MagnetAuth0 extends Module {
     }
 
     if (this.config.managementClient) {
-      this.insert('auth0Management', new ManagementClient(this.config.managementClient))
+      this.insert(new ManagementClient(this.config.managementClient), 'auth0Management')
     }
   }
 }
