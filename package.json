@@ -1,6 +1,6 @@
 {
   "name": "magnet-auth0",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Magnet adapter for auth0",
   "keywords": [
     "magnet",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "auth0": "^2.6.0",
-    "magnet-core": "^3.9.0"
+    "magnet-core": "^4.0.1"
   },
   "devDependencies": {
     "fly": "^2.0.5",

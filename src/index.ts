@@ -2,8 +2,10 @@ import { Module } from 'magnet-core/module'
 import { ManagementClient, AuthenticationClient } from 'auth0'
 
 export default class MagnetAuth0 extends Module {
-  get moduleName () { return 'auth0' }
-  get defaultConfig () { return __dirname }
+  init () {
+    this.moduleName = 'auth0'
+    this.defaultConfig = __dirname
+  }
 
   async setup () {
     if (this.config.authenticationClient) {

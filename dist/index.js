@@ -19,7 +19,7 @@ class MagnetAuth0 extends module_1.Module {
                 this.insert(new auth0_1.AuthenticationClient(this.config.authenticationClient));
             }
             if (this.config.managementClient) {
-                this.insert('auth0Management', new auth0_1.ManagementClient(this.config.managementClient));
+                this.insert(new auth0_1.ManagementClient(this.config.managementClient), 'auth0Management');
             }
         });
     }
